@@ -1,0 +1,15 @@
+.route {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1184px;
+  height: 740px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.route:hover .route__cover {
+  opacity: 0.8;
+}

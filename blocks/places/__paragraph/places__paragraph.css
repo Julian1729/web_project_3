@@ -1,0 +1,10 @@
+.places__paragraph {
+  color: #fff;
+  margin: 0 0 25px 0;
+  line-height: 163%;
+  font-size: 18px;
+}
+
+.places__paragraph:last-of-type {
+  margin-bottom: 0;
+}
