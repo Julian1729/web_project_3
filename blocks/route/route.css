@@ -3,8 +3,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
-  max-width: 1184px;
+  /* margin: 0 auto;
+  max-width: 1184px; */
+  /* padding: 0 48px; */
   height: 740px;
   z-index: 1;
   cursor: pointer;
@@ -12,4 +13,22 @@
 
 .route:hover .route__cover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .route {
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .route {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .route {
+    height: 200px;
+  }
 }

@@ -1,9 +1,5 @@
 .header__language {
-  color: #fff;
   margin-right: 18px;
-  font-size: 24px;
-  font-family: "Inter";
-  font-weight: 400;
 }
 
 .header__language:last-of-type {

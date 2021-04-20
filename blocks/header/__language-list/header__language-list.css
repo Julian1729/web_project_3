@@ -5,3 +5,9 @@
   list-style: none;
   align-self: flex-end;
 }
+
+@media screen and (max-width: 320px) {
+  .header__language-list {
+    align-self: center;
+  }
+}

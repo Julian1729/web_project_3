@@ -1,3 +1,31 @@
 .places__location {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 48px 40px;
   margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__location {
+    grid-gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__location {
+    grid-gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__location {
+    grid-gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__location {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
 }

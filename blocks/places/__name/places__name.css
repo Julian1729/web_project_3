@@ -1,8 +1,21 @@
 .places__name {
   line-height: 76px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 72px;
-  margin: 0 40px 0 0;
-  width: 460px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .places__name {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__name {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

@@ -1,7 +1,16 @@
 .route__title {
   color: #fff;
   font-size: 72px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 76px;
   margin: 0 0 32px 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .route__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+  }
 }

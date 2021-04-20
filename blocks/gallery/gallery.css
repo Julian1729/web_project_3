@@ -1,4 +1,9 @@
 .gallery {
-  max-width: 1184px;
   margin: 0 auto 92px auto;
 }
+
+/* @media screen and (max-width: 768px) {
+  .gallery {
+    padding: 0 24px;
+  }
+} */
